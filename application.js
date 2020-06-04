@@ -3,12 +3,12 @@ const $cancelButton = document.querySelector("#notification-cancel");
 const $error = document.querySelector("#error");
 
 try {
-  if (
-    !("serviceWorker" in navigator) ||
-    !("showTrigger" in Notification.prototype)
-  ) {
-    throw "ServiceWorker or Notification Trigger API is not supported";
-  }
+  // if (
+  //   !("serviceWorker" in navigator) ||
+  //   !("showTrigger" in Notification.prototype)
+  // ) {
+  //   throw "ServiceWorker or Notification Trigger API is not supported";
+  // }
 
   function pad(num, size = 2) {
     let s = num + "";
